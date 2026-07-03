@@ -1,1 +1,21 @@
-
+OrderID,Product,Category,Sales,Quantity,City,OutletSize,Rating,FatContent,Month
+1,Milk,Dairy,120,2,Delhi,Medium,4.5,Low Fat,Jan
+2,Bread,Bakery,80,1,Mumbai,Small,4.1,Regular,Jan
+3,Apple,Fruits,200,3,Delhi,Large,4.8,Low Fat,Jan
+4,Banana,Fruits,150,5,Pune,Medium,4.2,Low Fat,Feb
+5,Soap,Personal Care,90,1,Delhi,Small,3.9,Regular,Feb
+6,Rice,Grocery,500,10,Mumbai,Large,4.6,Low Fat,Feb
+7,Oil,Grocery,300,2,Pune,Medium,4.3,Regular,Mar
+8,Shampoo,Personal Care,250,2,Delhi,Small,4.0,Regular,Mar
+9,Tomato,Vegetables,100,4,Mumbai,Medium,4.7,Low Fat,Mar
+10,Potato,Vegetables,180,6,Pune,Large,4.5,Low Fat,Apr
+11,Milk,Dairy,130,2,Delhi,Medium,4.4,Low Fat,Apr
+12,Bread,Bakery,85,1,Mumbai,Small,4.0,Regular,Apr
+13,Apple,Fruits,210,3,Pune,Large,4.9,Low Fat,May
+14,Banana,Fruits,160,5,Delhi,Medium,4.3,Low Fat,May
+15,Rice,Grocery,520,10,Mumbai,Large,4.6,Low Fat,May
+16,Oil,Grocery,320,2,Pune,Medium,4.2,Regular,Jun
+17,Soap,Personal Care,95,1,Delhi,Small,3.8,Regular,Jun
+18,Shampoo,Personal Care,260,2,Mumbai,Small,4.1,Regular,Jun
+19,Tomato,Vegetables,110,4,Pune,Medium,4.7,Low Fat,Jul
+20,Potato,Vegetables,190,6,Delhi,Large,4.6,Low Fat,Jul
