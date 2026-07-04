@@ -1,0 +1,105 @@
+==================================================
+BLINKIT SALES DATASET
+==================================================
+
+First 5 Rows:
+   OrderID Product    Category  Sales  ...  OutletSize Rating FatContent  Month
+0        1   Mango      Fruits    337  ...      Medium    4.8    Low Fat    Sep
+1        2  Paneer       Dairy    386  ...       Small    4.1    Low Fat    Jan
+2        3  Coffee     Grocery     67  ...       Small    4.7    Low Fat    Oct
+3        4  Carrot  Vegetables    902  ...       Small    4.6    Regular    May
+4        5  Cheese       Dairy    601  ...       Small    3.8    Low Fat    Jul
+
+[5 rows x 10 columns]
+
+Dataset Information:
+<class 'pandas.DataFrame'>
+RangeIndex: 5000 entries, 0 to 4999
+Data columns (total 10 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   OrderID     5000 non-null   int64  
+ 1   Product     5000 non-null   str    
+ 2   Category    5000 non-null   str    
+ 3   Sales       5000 non-null   int64  
+ 4   Quantity    5000 non-null   int64  
+ 5   City        5000 non-null   str    
+ 6   OutletSize  5000 non-null   str    
+ 7   Rating      5000 non-null   float64
+ 8   FatContent  5000 non-null   str    
+ 9   Month       5000 non-null   str    
+dtypes: float64(1), int64(3), str(6)
+memory usage: 390.8 KB
+None
+
+Missing Values:
+OrderID       0
+Product       0
+Category      0
+Sales         0
+Quantity      0
+City          0
+OutletSize    0
+Rating        0
+FatContent    0
+Month         0
+dtype: int64
+
+Summary Statistics:
+           OrderID        Sales     Quantity       Rating
+count  5000.000000  5000.000000  5000.000000  5000.000000
+mean   2500.500000   524.223800     5.450200     4.247120
+std    1443.520003   273.912843     2.863418     0.441541
+min       1.000000    50.000000     1.000000     3.500000
+25%    1250.750000   285.000000     3.000000     3.900000
+50%    2500.500000   524.000000     5.000000     4.300000
+75%    3750.250000   759.000000     8.000000     4.600000
+max    5000.000000  1000.000000    10.000000     5.000000
+
+Total Sales: 2621119
+Total Orders: 5000
+Average Rating: 4.25
+
+Category Wise Sales
+Category
+Grocery          631528
+Dairy            531480
+Vegetables       416396
+Fruits           414548
+Bakery           212579
+Personal Care    212170
+Protein          116581
+Beverages         85837
+Name: Sales, dtype: int64
+
+City Wise Sales
+City
+Lucknow      281883
+Bangalore    279308
+Jaipur       267398
+Bhopal       266315
+Chennai      266032
+Pune         263860
+Indore       262015
+Delhi        254004
+Mumbai       253804
+Hyderabad    226500
+Name: Sales, dtype: int64
+
+Monthly Sales
+Month
+Apr    208371
+Aug    240078
+Dec    219004
+Feb    209313
+Jan    210811
+Jul    213942
+Jun    231889
+Mar    209679
+May    209303
+Nov    227395
+Oct    221602
+Sep    219732
+Name: Sales, dtype: int64
+
+Clean dataset saved successfully.

@@ -78,6 +78,7 @@ plt.title("Category Wise Sales")
 plt.xlabel("Category")
 plt.ylabel("Sales")
 plt.tight_layout()
+plt.savefig("dashboard/category_sales.png")
 plt.show()
 
 
@@ -86,6 +87,7 @@ plt.title("City Wise Sales")
 plt.xlabel("City")
 plt.ylabel("Sales")
 plt.tight_layout()
+plt.savefig("dashboard/city_sales.png")
 plt.show()
 
 
@@ -95,4 +97,13 @@ plt.xlabel("Month")
 plt.ylabel("Sales")
 plt.grid(True)
 plt.tight_layout()
+plt.savefig("dashboard/monthly_sales.png")
 plt.show()
+
+# ==========================
+# Save Clean Dataset
+# ==========================
+
+df.to_csv("data/processed/blinkit_cleaned.csv", index=False)
+
+print("\nClean dataset saved successfully.")
