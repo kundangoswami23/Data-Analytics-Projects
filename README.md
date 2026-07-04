@@ -1,89 +1,159 @@
-# 🛒 Blinkit Sales Analysis (Data Analytics Project)
+# 🛒 Blinkit Sales Analysis
 
-## 📌 Project Overview
-This project analyzes Blinkit grocery sales data using Python to find business insights, trends, and performance KPIs.
-
----
-
-## 🎯 Business Problem
-To understand sales performance, customer behavior, and product trends in Blinkit stores.
+> A complete Data Analytics project built using Python, Pandas, NumPy, and Matplotlib to analyze Blinkit grocery sales data and generate business insights.
 
 ---
 
-## 📊 KPIs (Key Metrics)
+# 📌 Project Overview
 
-- Total Sales
-- Total Orders
-- Average Sales
-- Average Rating
-- Total Items Sold
-- Top Selling Category
-- Sales by Outlet Size
-- Sales by City
-- Sales by Fat Content
+This project analyzes Blinkit sales data to uncover meaningful business insights. The analysis includes data cleaning, exploratory data analysis (EDA), KPI generation, and data visualization to help understand customer purchasing behavior and sales performance.
 
 ---
 
-## 🛠 Tools & Technologies
+# 🎯 Business Objective
 
-- Python 🐍
+The objective of this project is to answer important business questions such as:
+
+- Which product category generates the highest sales?
+- Which city contributes the highest revenue?
+- How do sales change over different months?
+- Which outlet size performs the best?
+- What is the average customer rating?
+- Which products should Blinkit focus on?
+
+---
+
+# 🛠 Tech Stack
+
+- Python
 - Pandas
 - NumPy
 - Matplotlib
-- Jupyter Notebook
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```
-data/
-notebooks/
-src/
-reports/
-dashboard/
+Blinkit-Sales-Analysis
+│
+├── dashboard
+│   ├── category_sales.png
+│   ├── city_sales.png
+│   └── monthly_sales.png
+│
+├── data
+│   ├── raw
+│   │   └── blinkit_data.csv
+│   └── processed
+│       └── blinkit_cleaned.csv
+│
+├── reports
+│   ├── insights.md
+│   └── project_output.txt
+│
+├── src
+│   ├── analysis.py
+│   ├── data_cleaning.py
+│   └── visualization.py
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
 ```
 
 ---
 
-## 📈 Analysis Performed
+# 📊 Project Features
 
 - Data Cleaning
-- Missing Value Handling
+- Missing Value Analysis
+- Duplicate Record Detection
+- Summary Statistics
 - Category-wise Sales Analysis
-- Outlet-wise Performance
+- City-wise Sales Analysis
+- Monthly Sales Trend
 - Customer Rating Analysis
-- Trend Analysis
+- Sales KPIs
+- Professional Data Visualization
 
 ---
 
-## 💡 Key Insights
+# 📈 Key Performance Indicators (KPIs)
 
-- Fruits & Vegetables are top-selling category
-- Tier-3 cities show high engagement
-- Low Fat products generate more revenue
-- Medium outlets perform best in sales
-
----
-
-## 📊 Visualizations
-
-- Bar Charts
-- Pie Charts
-- Line Charts
-- Heatmaps
+- 💰 Total Sales
+- 📦 Total Orders
+- ⭐ Average Rating
+- 📊 Category-wise Sales
+- 🌍 City-wise Sales
+- 📅 Monthly Sales Trend
 
 ---
 
-## 🚀 Future Improvements
+# 📷 Dashboard Preview
 
-- Add Machine Learning prediction
-- Build interactive dashboard
-- Automate data pipeline
+## Category Wise Sales
+
+![Category Sales](dashboard/category_sales.png)
 
 ---
 
-## 👨‍💻 Author
+## City Wise Sales
 
-Kundan Goswami
+![City Sales](dashboard/city_sales.png)
+
+---
+
+## Monthly Sales Trend
+
+![Monthly Sales](dashboard/monthly_sales.png)
+
+---
+
+# 💡 Business Insights
+
+- Grocery category generated the highest sales.
+- Customer ratings remained consistently high.
+- Sales were distributed across all months with moderate fluctuations.
+- Multiple cities contributed significantly to total revenue.
+- This analysis can help improve inventory planning and promotional strategies.
+
+---
+
+# 🚀 Future Improvements
+
+- Interactive Dashboard using Power BI
+- Tableau Dashboard
+- Sales Forecasting using Machine Learning
+- Customer Segmentation
+- Product Recommendation System
+
+---
+
+# ▶️ How to Run
+
+```bash
+git clone <repository-url>
+
+cd Blinkit-Sales-Analysis
+
+pip install -r requirements.txt
+
+python src/analysis.py
+```
+
+---
+
+# 👨‍💻 Author
+
+**Kundan Goswami**
+
+Aspiring Data Analyst
+
+Python • SQL • Excel • Tableau • Power BI
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
